@@ -34,9 +34,9 @@ nav {
   justify-content: flex-end;
   width: 100%;
   background-color: #2f3131;
-  background-image: url("img/site_img/carbon-fibre.png");
-  box-shadow: 0px 3px 2px -2px rgba(249,186,50,1); 
-    
+  background-image: url("fcc-product-landing-page/img/site_img/carbon-fibre.png");
+  box-shadow: 0px 3px 2px -2px rgba(249,186,50,1);
+
 }
 
 nav > ul {
@@ -72,8 +72,8 @@ nav > ul > li > a:hover {
   align-items: center;
   height: 100vh;
   background-color: #2f3131;
-  background-image: url("img/site_img/stardust.png"); 
-  box-shadow: inset 0 0rem 2.5rem rgba(0, 0, 0, 0.9); 
+  background-image: url("fcc-product-landing-page/img/site_img/stardust.png");
+  box-shadow: inset 0 0rem 2.5rem rgba(0, 0, 0, 0.9);
 }
 
 #name {
@@ -81,7 +81,7 @@ nav > ul > li > a:hover {
   padding-bottom: 0.5rem;
   font-weight: 200;
   color: #f9ba32;
-  
+
 }
 
 #role_description {
@@ -166,7 +166,7 @@ nav > ul > li > a:hover {
   color: #f8f1e5;
   background-color: #2f3131;
   box-shadow: inset 0rem 0rem 2.5rem rgba(0, 0, 0, 0.9);
-  background-image: url("img/site_img/carbon-fibre-big.png");
+  background-image: url("fcc-product-landing-page/img/site_img/carbon-fibre-big.png");
 }
 
 .project_gallery {
@@ -239,7 +239,7 @@ nav > ul > li > a:hover {
   color: #f8f1e5;
   background-color: #2f3131;
   box-shadow: inset 0rem 0rem 1.875rem rgba(0, 0, 0, 0.9);
-  background-image: url("img/site_img/carbon-fibre-big.png");
+  background-image: url("fcc-product-landing-page/img/site_img/carbon-fibre-big.png");
   text-shadow: 0 0 0.5625rem black;
 }
 
@@ -348,7 +348,7 @@ button:hover {
   #role_description {
     font-size: 2.8rem;
   }
-  
+
   #github_icon,
   #linkedin_icon,
   #freecodecamp_icon,
@@ -379,7 +379,7 @@ button:hover {
   #role_description {
     font-size: 1.75rem;
   }
-  
+
   #github_icon,
   #linkedin_icon,
   #freecodecamp_icon,
@@ -441,7 +441,7 @@ button:hover {
   #role_description {
     font-size: 1.3rem;
   }
-  
+
   #github_icon,
   #linkedin_icon,
   #freecodecamp_icon,
