@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <!-- CSS IMPORT -->
+
+  <link rel="stylesheet" type="text/css" href="stylesheet.css" media="screen" />
+
+  <!-- FONT-AWESOME IMPORT -->
+
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.min.css" rel="stylesheet" />
+
+  <!-- NAVBAR -->
+
+  <nav id="navbar">
+    <ul>
+      <li><a class="nav-link" href="#welcome-section">WELCOME</a></li>
+      <li><a class="nav-link" href="#projects">PROJECTS</a></li>
+      <li><a class="nav-link" href="#contact">CONTACT</a></li>
+    </ul>
+  </nav>
+</head>
+
+<body>
+
+  <!-- WELCOME SECTION -->
+
+  <section id="welcome-section" class="section">
+    <h1 id="name">Andrew</h1>
+    <h4 id="role_description">Software Developer</h4>
+    <div>
+      <!--- github link--->
+      <a id="profile-link" class="external-links" href="https://#" target="_blank"><i  id="github_icon" class="fab fa-github-square"></i></a>
+
+      <!--- linkedin link --->
+      <a id="profile-link-3" class="external-links" href="https://#" target="_blank"><i id="linkedin_icon" class="fab fa-linkedin" class=“></i></a>
+
+      <!--- freecodecamp link --->
+      <a id="profile-link-2" class="external-links" href="https://#" target="_blank"><i id="freecodecamp_icon" class="fab fa-free-code-camp"></i></a>
+
+      <!--- blog link --->
+      <a id="profile-link-4" class="external-links" href="https://#" target="_blank"><i id="blog_icon" class="fab fa-blogger"></i></a>
+
+      <!--- Twitter link --->
+      <a id="profile-link-5" class="external-links" href="https://#" target="_blank"><i id="twitter_icon" class="fab fa-twitter-square"></i></a>
+    </div>
+  </section>
+
+  <!-- PROJECTS SECTION -->
+
+  <section id="projects" class="section">
+    <h1 class="section-title">My Projects</h1>
+
+    <!--- fcc: tribute page --->
+    <div class="project_gallery">
+      <div class="project-tile">
+        <h4>Tribute Page</h4>
+        <a id="tribute_link" href="https://#" target="_blank"><img class="project-img" src="img/project_img/Tribute-Page.png" alt="Tribute Page Pic"></a>
+        <div class="languages_used">
+          <div class="html-language">
+            <p>HTML</p><i class="fab fa-html5 fa-2x"></i>
+          </div>
+          <div class="css-language">
+            <p>CSS</p><i class="fab fa-css3-alt fa-2x"></i>
+          </div>
+        </div>
+      </div>
+
+      <!--- fcc: survey form --->
+      <div class="project-tile">
+        <h4>Survey Form</h4>
+        <a id="survey_form" href="https://#" target="_blank"><img class="project-img"  src="img/project_img/Survey-Form.png" alt="Survey Form Pic"></a>
+        <div class="languages_used">
+          <div class="html-language">
+            <p>HTML</p><i class="fab fa-html5 fa-2x"></i>
+          </div>
+          <div class="css-language">
+            <p>CSS</p><i class="fab fa-css3-alt fa-2x"></i>
+          </div>
+        </div>
+      </div>
+
+      <!--- fcc: product landing page --->
+      <div class="project-tile">
+        <h4>Product Landing Page</h4>
+        <a id="landing_page " href="https://#" target="_blank"><img class="project-img" src="img/project_img/Product-Landing-Page.jpg" alt="Product Landing Pic"></a>
+        <div class="languages_used">
+          <div class="html-language">
+            <p>HTML</p><i class="fab fa-html5 fa-2x"></i>
+          </div>
+          <div class="css-language">
+            <p>CSS</p><i class="fab fa-css3-alt fa-2x"></i>
+          </div>
+        </div>
+      </div>
+
+      <!--- fcc: technical documentation page --->
+      <div class="project-tile">
+        <h4>Technical Documentation</h4>
+        <a id="technical_documentation" href="https://#" target="_blank"><img class="project-img" src="img/project_img/Technical-Documentation.png" alt="Technical Documentation Pic"></a>
+        <div class="languages_used">
+          <div class="html-language">
+            <p>HTML</p><i class="fab fa-html5 fa-2x"></i>
+          </div>
+          <div class="css-language">
+            <p>CSS</p><i class="fab fa-css3-alt fa-2x"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT SECTION -->
+
+  <section id="contact" class="section">
+    <h1 class="section-title">Contact Me</h1>
+
+    <!--- info form --->
+    <div id=input_container>
+      <form id="infomration_request" action="mailto:temp@temp.com">
+        <label id="full_name_label" for="full_name">Your Name*</label>
+        <input id="full_name" type="text" placeholder="Alan Turing" required>
+        <div>
+          <label id="email_label" for="email">Email*</label>
+          <input id="email" type="email" placeholder="@youremail.com" required>
+        </div>
+        <div>
+          <label id="company_label" for="company">Company</label>
+          <input id="company" type="text" placeholder="Bletchley Park">
+        </div>
+        <div>
+          <label id="dropdown_label" for="dropdown">Subject</label>
+          <select id="dropdown">
+        <option value="option_default">Select</option>
+      <option value="option1">Request CV</option>
+      <option value="option2">Job Vacancy</option>
+      <option value="option2">Project Info</option>
+      <option value="option3">Other</option>
+    </select>
+        </div>
+        <label id="textarea_label">Details</label>
+        <textarea rows="10" cols="53" maxlength="500">
+    </textarea>
+        <div>
+          <button id="submit" type="submit">SEND</button>
+        </div>
+      </form>
+    </div>
+  </section>
+</body>
+
+</html>
