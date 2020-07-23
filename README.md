@@ -1,2 +1,2 @@
 # personal-portfolio
-freeCodeCamp responsive web design certification - project 5
+Responsive web design personal portfolio.
